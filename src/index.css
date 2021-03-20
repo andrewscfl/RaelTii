@@ -1,13 +1,96 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color:black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.section{
+  padding: 90px;
+  background-color:black;
 }
+
+.homeBanner{
+  background:url('./imageAssets/bannergame.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 180px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBanner h1{
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 90px;
+  margin: 10px;
+
+}
+
+
+.homeBanner p{
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+
+}
+
+.inner-banner{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.siteButton{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+.buttonIcon{
+  padding-right: 10px;
+}
+
+
+.purpleButton{
+  background-color: #370E4A;
+  text-align:center;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px white;
+
+}
+
+
+.Flex{
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.Flex h2{
+  color: white;
+  text-align:left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 45px;
+}
+
+.Flex p{
+  color: white;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  text-align:left;
+}
+
+.Flex-Child{
+  flex : 1;
+}
+
