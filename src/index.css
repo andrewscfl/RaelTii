@@ -10,7 +10,7 @@ body{
 }
 
 .homeBanner{
-  background:url('./imageAssets/bannergame.jpg');
+  background:url('./bannergame.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body{
   align-items: center;
 }
 
-.Flex h2{
+h2{
   color: white;
   text-align:left;
   font-family: 'Press Start 2P', cursive;
@@ -94,3 +94,41 @@ body{
   flex : 1;
 }
 
+
+.Flex-Content{
+  padding-right: 90px;
+}
+
+.overlay{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color:rgba(0, 0, 0, 0.85);
+  right: 0;
+  left:0;
+  top:0;
+  z-index: 2;
+}
+
+.modal{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-top: 15vh;
+}
+
+.Flex-Content-2{
+  padding-left: 90px;
+}
+
+
+.sparkle{
+  background:url('./bg-special.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: calc(80vh - 180px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
